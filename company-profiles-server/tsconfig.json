@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+      // Other options...
+      "target": "ES2020",
+      "module": "CommonJS",
+      "rootDir": "src",
+      "outDir": "dist",
+      "esModuleInterop": true,
+      "forceConsistentCasingInFileNames": true,
+      "strict": true,
+      "skipLibCheck": true,
+      "moduleResolution": "node",
+      "typeRoots": ["./src/types", "./node_modules/@types"] // Use "node" for a CommonJS setup
+    },
+    "include": ["src/**/*.ts", "src/types/*.d.ts"]
+  }
+  
